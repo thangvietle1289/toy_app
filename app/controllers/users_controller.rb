@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-  has_many :microposts
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
